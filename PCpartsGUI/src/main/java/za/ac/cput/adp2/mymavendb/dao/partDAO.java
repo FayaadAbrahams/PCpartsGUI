@@ -25,6 +25,7 @@ public class partDAO {
         ps.setString(1, parts.getPcPartID());
         ps.setString(2, parts.getPcPartName());
         ps.setString(3, parts.getPcPartPrice());
+        System.out.println("Hello world I am here");
 
         int ok = ps.executeUpdate();
         if (ok > 0) {
